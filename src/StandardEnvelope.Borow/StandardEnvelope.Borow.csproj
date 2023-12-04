@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../StandardEnvelope/StandardEnvelope.csproj" />
+    <ProjectReference Include="../../external/borow-ampersand/src/BorowAmpersand.Runtime/BorowAmpersand.Runtime.csproj" />
+  </ItemGroup>
+</Project>

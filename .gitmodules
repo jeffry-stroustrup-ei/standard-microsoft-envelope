@@ -1,0 +1,3 @@
+[submodule "external/borow-ampersand"]
+	path = external/borow-ampersand
+	url = https://github.com/jeffry-stroustrup-ei/borow-ampersand.git

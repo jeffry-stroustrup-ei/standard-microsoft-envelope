@@ -28,7 +28,7 @@ The answer is still 42. The procedure is now compliant.
 Requires the .NET 8 SDK.
 
 ```sh
-git clone <your-repository-url>
+git clone https://github.com/jeffry-stroustrup-ei/standard-microsoft-envelope.git
 cd standard-microsoft-envelope
 dotnet build src/StandardEnvelope
 dotnet pack src/StandardEnvelope --configuration Release --output artifacts
@@ -124,9 +124,15 @@ Please specify whether this is a technical or an HR question.
 **Is the standard complete?**  
 The working group has approved the envelope containing the draft standard.
 
+## Acknowledgements
+
+Special thanks to the **Standard Envelope Working Group** for approving the procedure for approving envelope procedures.
+
+The committee has not reviewed the contents. Opening the envelope would require a separate committee.
+
 ## Specification and provenance
 
-See [SME-0001](docs/SME-0001.md) for the correspondence standard and [the Russian overview](README.ru.md).
+See [SME-0001](docs/SME-0001.md) for the correspondence standard.
 
 The optional dependency remains in its own repository with its own provenance. No license grant for upstream BorowAmpersand code is implied by this project.
 
